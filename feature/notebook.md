@@ -24,7 +24,7 @@ IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython �
 
 ![此处输入图片的描述](https://doc.shiyanlou.com/document-uid214893labid4814timestamp1519985193964.png)
 
-## 界面使用
+## 使用
 
 如果你先前使用过 Jupyter Notebook，我们相信当你接触到实验楼的 Jupyter Notebook 的界面会很容易上手。下面详细介绍界面的正确使用姿势。
 
@@ -86,16 +86,7 @@ IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython �
 
 除此之外，你可以通过页面右上角的 Kernel 状态指示器判断内核占用情况。如果 Python 字符右边出现了实心圆圈 ◉，代表内核处于占有状态。而空心圆圈 ◯ 则代表内核处于空闲状态。当然，也可能出现链接断开的符号，那就代表着内核已经断开链接，你可能需要刷新页面或重启实验环境。当然，实验楼会尽力让你避免遇到内核断开的状态。
 
-## 支持的功能
-
-Jupyter Notebook 界面支持以下功能：
-
-* [实验步骤](../feature/lab_steps.md)，不支持步骤自动验证
-* [倒计时与延时](../feature/count_down.md)
-* [有效学习时间](../feature/study_time.md)
-* [下载代码](../feature/download_code.md)
-
-## 上手体验
+### 上手体验
 
 目前实验楼的机器学习和数据分析相关的课程都已经采用了 Jupyter Notebook 界面，如果需要体验，可以尝试以下课程：
 
@@ -111,3 +102,11 @@ Jupyter Notebook 界面支持以下功能：
 10. [《利用 Tensorflow 设计简单的前向神经网络》](https://www.shiyanlou.com/courses/1029)
 11. [《利用 TensorFlow 进行自然语言处理》](https://www.shiyanlou.com/courses/1026)
 
+## 支持的功能
+
+Jupyter Notebook 界面支持以下功能：
+
+* [实验步骤](../feature/lab_steps.md)，Jupyter Notebook 的实验步骤已经混合到实验环境中的 Notebook 文档里，因此无法支持通常意义的步骤和自动步骤验证。
+* [倒计时与延时](../feature/count_down.md)
+* [有效学习时间](../feature/study_time.md)
+* [下载代码](../feature/download_code.md)

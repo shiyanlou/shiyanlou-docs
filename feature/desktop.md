@@ -6,7 +6,7 @@
 
 TODO
 
-## 界面使用
+## 使用
 
 图形界面使用的是优秀的 Ubuntu Linux 操作系统。Linux 不同于 Windows 环境，初上手有很多不便，但用来学习计算机技术是极好的，大部分互联网公司的开发环境都是 Linux，Linux 也成为越来越多计算机专业学生的必修课。
 
@@ -31,5 +31,6 @@ TODO
 * [剪切板](../feature/clipboard.md)
 * [共享桌面](../feature/share_desktop.md)
 * [下载代码](../feature/download_code.md)
-* [保存环境](../quickstart/save_lab.md)
+* [SSH 直连（会员）](../feature/ssh.md)
+* [保存环境（会员）](../feature/save_lab.md)
 

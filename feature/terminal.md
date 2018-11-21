@@ -6,7 +6,7 @@
 
 TODO
 
-## 界面使用
+## 使用
 
 选择字符界面的主要原因是桌面界面使用对网络要求较高，当网络状况不好的时候可以切换到字符界面中进行实验。
 
@@ -28,5 +28,7 @@ TODO
 * [有效学习时间](../feature/study_time.md)
 * [剪切板](../feature/clipboard.md)
 * [下载代码](../feature/download_code.md)
-* [保存环境](../quickstart/save_lab.md)
+* [SSH 直连（会员）](../feature/ssh.md)
+* [保存环境（会员）](../feature/save_lab.md)
+
 

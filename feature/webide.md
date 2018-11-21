@@ -6,13 +6,13 @@ Web IDE 界面提供的是一个可以在浏览器中编辑代码的 IDE 的界�
 
 TODO
 
-##  界面优势
+###  界面优势
 
 Web IDE 不同于图形界面，对带宽要求较低，所以比较适用于一些需要大量代码编辑的场景，例如 Java 开发和 Web 前端开发，在之前的桌面环境下需要启动 Eclipse 或 Firefox 浏览器进行代码编写和测试，性能非常差，选择 Web IDE，可以直接在浏览器中进行测试，不需要再嵌套一层 Linux 的 Xfce 桌面。
 
 TODO
 
-## 界面使用
+## 使用
 
 这里以 Java 举例，在 WEB IDE 中，主要使用命令行和 maven 来开发项目。
 
@@ -122,5 +122,6 @@ Web IDE 界面支持的功能：
 * [倒计时与延时](../feature/count_down.md)
 * [有效学习时间](../feature/study_time.md)
 * [下载代码](../feature/download_code.md)
-* [保存环境](../quickstart/save_lab.md)
+
+Web IDE SSH 直连和保存环境的功能正在开发中，很快会上线。
 
