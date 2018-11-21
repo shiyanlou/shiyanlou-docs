@@ -25,6 +25,6 @@
     * [共享桌面](feature/share_desktop.md)
     * [下载代码](feature/download_code.md)
     * [SSH 直连（会员）](feature/ssh.md)
-    * [保存环境（会员）](quickstart/save_lab.md)
+    * [保存环境（会员）](feature/save_lab.md)
 * [常见问题](FAQ.md)
 
