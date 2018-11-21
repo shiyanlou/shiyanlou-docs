@@ -12,15 +12,15 @@
 
 每增加30分钟有效学习时间上升1层楼，并且可以获得 1 个实验豆奖励，获得楼层和实验豆的时候会收到提醒的消息。
 
-TODO 消息图
+![studytime1](../images/studytime1.jpg)
 
 停止实验的时候会提示本次实验的时间和有效学习时间。
 
-TODO 实验评论
+![studytimereminder](../images/studytimereminder.jpg)
 
 可以在个人主页查看每天的有效学习时间记录以及楼层。
 
-TODO 个人主页图
+![studytimecheck](../images/studytimecheck.jpg)
 
 ### 百楼俱乐部
 

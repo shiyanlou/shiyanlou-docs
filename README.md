@@ -25,10 +25,11 @@ IT 技术是实践的科学，动手实践是最高效的学习方法。实验�
 * [Jupyter Notebook](feature/notebook.md)
 * [Web IDE](feature/webide.md)
 
-TODO 图形界面、Jupyter Notebook 界面
+![desktop](images/desktopui.jpg)
+
+![notebook](images/notebook.png)
 
 四种界面的功能支持：
-
 
 |功能|图形界面|字符界面|Jupyter Notebook|Web IDE|
 |---|---|---|---|---|
@@ -37,21 +38,20 @@ TODO 图形界面、Jupyter Notebook 界面
 |切换界面|支持|支持|||
 |倒计时与延时|支持|支持|支持|支持|
 |有效学习时间|支持|支持|支持|支持|
-|剪贴板|支持|支持|注2|注2|
+|剪切板|支持|支持|注2|注2|
 |共享桌面|支持||||
 |下载代码|支持|支持|支持|支持|
 |SSH直连（会员）|支持|支持||注3|
 |保存环境（会员）|支持|支持||注3|
 
-
 * 注1：Jupyter Notebook 的实验步骤已经混合到实验环境中的 Notebook 文档里，因此无法支持通常意义的步骤和自动步骤验证。
-* 注2：由于 Jupyter Notebook 和 Web IDE 可以直接拷贝粘贴，所以不需要单独实现剪贴板功能。
+* 注2：由于 Jupyter Notebook 和 Web IDE 可以直接拷贝粘贴，所以不需要单独实现剪切板功能。
 * 注3：Web IDE SSH 直连和保存环境的功能正在开发中，很快会上线。
 * 注4：所有界面如果运行在非容器的实验环境上，都无法支持实验步骤自动验证、SSH 直连和保存环境功能。
 
 ## 面向用户
 
-[实验楼](https://www.shiyanlou.com) 的新手用户。
+[实验楼](https://www.shiyanlou.com)新用户
 
 ## 在线阅读
 
@@ -62,6 +62,6 @@ TODO 图形界面、Jupyter Notebook 界面
 
 ## 贡献
 
-如果本教程有任何地方不够清晰，欢迎 [提交 issue](https://github.com/shiyanlou/shiyanlou-docs/issues) 或 PR 帮助我们改进。
+如果本教程有任何地方不够清晰，欢迎[提交 issue](https://github.com/shiyanlou/shiyanlou-docs/issues) 或 PR 帮助我们改进。
 
-如果您对实验楼的功能有任何建议，也可以 [提交 issue](https://github.com/shiyanlou/shiyanlou-docs/issues) ，会定期收集和回复。
+如果您对实验楼的功能有任何建议，也可以[提交 issue](https://github.com/shiyanlou/shiyanlou-docs/issues)，会定期收集和回复。

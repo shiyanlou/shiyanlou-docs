@@ -21,7 +21,7 @@
     * [切换界面](feature/switch_ui.md)
     * [倒计时与延时](feature/count_down.md)
     * [有效学习时间](feature/study_time.md)
-    * [剪贴板](feature/clipboard.md)
+    * [剪切板](feature/clipboard.md)
     * [共享桌面](feature/share_desktop.md)
     * [下载代码](feature/download_code.md)
     * [SSH 直连（会员）](feature/ssh.md)

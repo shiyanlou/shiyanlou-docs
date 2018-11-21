@@ -4,7 +4,8 @@
 
 SSH 直连指的是使用本地的 SSH 客户端连接实验环境，把实验环境当成一台远端的 SSH 服务器来使用，连接后在 SSH 客户端中进行实验操作。SSH 直连是实验楼会员功能。
 
-TODO
+![ssh](../images/ssh1.jpg)
+
 
 ## 使用
 
@@ -18,24 +19,48 @@ $ ssh -p 端口 shiyanlou@IP地址
 
 例如打开 SSH 直连窗口后得到如下信息：
 
-* IP：122.11.10.1
+* IP：10.11.10.1
 * 端口：43212
 * 用户名：shiyanlou
 * 密码：92918199
 
-那么需要在终端中输入以下命令，输入后按照提示输入 Yes，然后再输入密码，注意密码输入是不可见的。
+那么需要在终端中输入以下命令，输入后按照提示输入 yes，然后再输入密码，注意密码输入是看不到的。
 
-TODO
+```
+$ ssh -p 43212 shiyanlou@10.11.10.1
+The authenticity of host '[10.11.10.1]:43212 ([10.11.10.1]:43212)' can't be established.
+ECDSA key fingerprint is SHA256:+f8C5pSxZq+IUa31ZaEpWkaYNV3Lvk/HUteFFBvjs8w.
+Are you sure you want to continue connecting (yes/no)?yes
+Warning: Permanently added '[10.11.10.1]:43212' (ECDSA) to the list of known hosts.
+shiyanlou@10.11.10.1's password:92918199
+Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 3.13.0-125-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+shiyanlou:~/ $
+shiyanlou:~/ $
+```
 
 如果使用的是 Windows 操作系统，可以下载 putty 软件进行连接，下载地址：
 
-TODO
+* [Putty 下载地址](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
-下载后放到桌面，直接双击打开，打开后输入 IP、端口、用户名。
+下载后放到桌面，直接双击打开，打开后输入下列信息：
 
-TODO
+* Host Name：输入 SSH 直连窗口中显示的 IP 地址
+* Port：输入 SSH 直连窗口中显示的端口号
+* Connection Type：选择 SSH
 
-然后保存为 Profile，双击这个 Profile，仍然需要按照询问输入 Yes，再输入密码，需要注意的是密码输入是不可见的。
+然后保存为 Session，点击这个 Session，再点击 Open，会开始 SSH 连接。会询问用户名及密码，需要注意的是密码输入是不可见的。
 
 TODO
 

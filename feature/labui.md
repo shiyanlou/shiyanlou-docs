@@ -21,9 +21,14 @@
 * Jupyter Notebook：适用于数据分析、机器学习等实验
 * Web IDE：适用于 Java、PHP 及 Web 前端实验
 
-TODO
+![desktop](../images/desktop1.jpg)
 
-TODO
+![terminal](../images/terminal.jpg)
+
+![notebook](../images/notebook.png)
+
+![webide](../images/webide.jpg)
+
 
 ## 功能支持
 
@@ -38,14 +43,14 @@ TODO
 |切换界面|支持|支持|||
 |倒计时与延时|支持|支持|支持|支持|
 |有效学习时间|支持|支持|支持|支持|
-|剪贴板|支持|支持|注2|注2|
+|剪切板|支持|支持|注2|注2|
 |共享桌面|支持||||
 |下载代码|支持|支持|支持|支持|
 |SSH直连（会员）|支持|支持||注3|
 |保存环境（会员）|支持|支持||注3|
 
 * 注1：Jupyter Notebook 的实验步骤已经混合到实验环境中的 Notebook 文档里，因此无法支持通常意义的步骤和自动步骤验证。
-* 注2：由于 Jupyter Notebook 和 Web IDE 可以直接拷贝粘贴，所以不需要单独实现剪贴板功能。
+* 注2：由于 Jupyter Notebook 和 Web IDE 可以直接拷贝粘贴，所以不需要单独实现剪切板功能。
 * 注3：Web IDE SSH 直连和保存环境的功能正在开发中，很快会上线。
 * 注4：所有界面如果运行在非容器的实验环境上，都无法支持实验步骤自动验证、SSH 直连和保存环境功能。
 

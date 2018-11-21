@@ -10,19 +10,19 @@
 
 熟悉机器学习和数据分析的朋友们可能都听说过 IPython，它是一种基于 Python 的交互式解释器。相较于原生的 Python Shell，IPython 提供了更为强大的编辑和交互功能。
 
-![此处输入图片的描述](https://doc.shiyanlou.com/document-uid214893labid4814timestamp1519985055900.png)
+![ipython](../images/ipython.png)
 
 IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython 的交互式特性，同时以 Web 形式运行。IPython Notebook 的出现，让数据分析和机器学习的过程变得高效。
 
-![图片描述](https://dn-simplecloud.shiyanlou.com/uid/36d84143291f08b534ce129d5cf840fc/1520214887136.png)
+![ipythonnotebook](../images/ipythonnotebook.png)
 
 再之后，在谷歌、微软等互联网巨头的赞助下，IPython Notebook 发展成为更加成熟和完善的开源项目，并更名为 Jupyter Notebook。相信有很多朋友对这个名字和下面的界面并不陌生。
 
-![此处输入图片的描述](https://doc.shiyanlou.com/document-uid214893labid4814timestamp1519985164368.png)
+![jupyternotebook](../images/jupyternotebook.png)
 
 如今，实验楼基于 Jupyter Notebook 为机器学习和数据分析提供在线实验环境，界面如下所示。
 
-![此处输入图片的描述](https://doc.shiyanlou.com/document-uid214893labid4814timestamp1519985193964.png)
+![notebook](../images/notebook.png)
 
 ## 使用
 
@@ -32,7 +32,7 @@ IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython �
 
 目前，图形界面如下图所示，大致分为两部分：左边是实验步骤，右边是在线实验环境。学习时，你通过阅读文档内容，并自己动手在右侧的在线环境中练习。
 
-![此处输入图片的描述](https://doc.shiyanlou.com/document-uid214893labid4814timestamp1519985223521.png)
+![desktop](../images/desktopui.jpg)
 
 而在 Jupyter Notebook 界面中，学习逻辑就会发生一些变化。如今，实验步骤和实验环境被融为一体，你只需要跟随实验楼制作好的每一个实验内容，从头到尾一步一步完成练习即可。下面，我们就了解一下 Jupyter Notebook 中的实验内容的组成结构。
 
@@ -40,7 +40,7 @@ IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython �
 
 内容结构中最基本的组成单位被称之为单元格，一节完整的实验由若干个单元格按顺序构成。如下图所示，当你使用鼠标在课程界面单击时，就会选中相应的单元格，被处于选中状态的单元格的左侧会出现一条蓝色的竖线（区别于编辑状态时的绿色竖线）。
 
-![此处输入图片的描述](https://doc.shiyanlou.com/document-uid214893labid4814timestamp1519985246477.png)
+![cell](../images/cell.png)
 
 每一个单元格会有两种模式，分别是 Markdown（文本） 和 Code（代码）。在实验楼的课程中，教学内容都是以 Markdown 单元格展示，而你需要动手练习的代码将在 Code 单元格中执行。
 
@@ -50,19 +50,19 @@ IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython �
 
 除此之外，更简单的方法就是观察单元格的背景色。如下图所示，我们将 Code 单元格的背景色设置成为黑色，而 Markdown 单元格的背景则为白色。
 
-![此处输入图片的描述](https://doc.shiyanlou.com/document-uid214893labid4814timestamp1519985267791.png)
+![cellmode](../images/cellmode.png)
 
 ### 单元格菜单栏
 
 上面提到了单元格右上角的菜单栏。如下图所示，这个菜单栏中包含了针对单元格常见的 4 种操作。
 
-![图片描述](https://dn-simplecloud.shiyanlou.com/uid/36d84143291f08b534ce129d5cf840fc/1520214494302.png)
+![cellmenu](../images/cellmenu.png)
 
 ### 运行代码
 
 你可能会有疑问，那就是自己在哪里书写练习代码并执行呢？当前，这一切都是在 Code 单元格中完成。如下图所示，当你在 Code 单元格中书写 `print('hello, world!')` 时，点击左侧的运行按钮 ▶，相应的代码就会立即执行，并在单元格的下方显示输出内容。
 
-![图片描述](https://dn-simplecloud.shiyanlou.com/uid/36d84143291f08b534ce129d5cf840fc/1520214698336.png)
+![runcode](../images/runcode.png)
 
 ### 保存自己的代码
 
@@ -70,7 +70,7 @@ IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython �
 
 除此之外，如果想停止实验时，可以将 Python 代码文件下载到本地以备后用。只需要点击界面右上角的下载按钮即可。
 
-![图片描述](https://dn-simplecloud.shiyanlou.com/uid/36d84143291f08b534ce129d5cf840fc/1520214337760.png)
+![savecode](../images/savecode.png)
 
 ## 界面特点
 
@@ -78,7 +78,7 @@ IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython �
 
 无论是 Markdown 单元格，还是 Code 单元格，它们在课程中都是按照从上到下的顺序依次执行的。后面的单元格需要等待前面的单元格执行完成后，才能继续执行。执行完成的单元格左侧会出现 `In [序号]` 的标志，例如：
 
-![图片描述](https://dn-simplecloud.shiyanlou.com/uid/36d84143291f08b534ce129d5cf840fc/1520214663284.png)
+![runcell](../images/runcell.png)
 
 ### 单元格的执行状态
 
@@ -106,7 +106,8 @@ IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython �
 
 Jupyter Notebook 界面支持以下功能：
 
-* [实验步骤](../feature/lab_steps.md)，Jupyter Notebook 的实验步骤已经混合到实验环境中的 Notebook 文档里，因此无法支持通常意义的步骤和自动步骤验证。
 * [倒计时与延时](../feature/count_down.md)
 * [有效学习时间](../feature/study_time.md)
 * [下载代码](../feature/download_code.md)
+
+Jupyter Notebook 的实验步骤已经混合到实验环境中的 Notebook 文档里，因此无法支持通常意义的步骤和自动步骤验证。
