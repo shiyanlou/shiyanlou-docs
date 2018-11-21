@@ -62,7 +62,7 @@ shiyanlou:~/ $
 
 然后保存为 Session，点击这个 Session，再点击 Open，会开始 SSH 连接。会询问用户名及密码，需要注意的是密码输入是不可见的。
 
-TODO
+// TODO putty 配置截图
 
 连接后就与字符模式类似，进入到一个 zsh Shell，可以输入 Linux 命令进行操作，也可以使用 Vim 进行程序编辑。
 

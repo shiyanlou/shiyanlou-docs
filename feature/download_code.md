@@ -13,11 +13,11 @@
 
 将需要下载的文件复制或者移动到 `/home/shiyanlou/Code` 目录：
 
-TODO 图
+![mvtoCode](../images/mvtoCode.jpg)
 
 点击实验界面 `下载代码` 按钮，将会将实验环境中的 `/home/shiyanlou/Code` 目录打包下载，可以将代码等需要导出环境的文件放到这个目录下。
 
-TODO
+![downloadcode](../images/downloadcode.jpg)
 
 代码下载会打开新的窗口，浏览器有可能把窗口拦截了，请查看浏览器地址栏右边是否有提示。另外下载代码限制最大为 5M，如果 `/home/shiyanlou/Code` 太大，会导致后台传输超时。
 

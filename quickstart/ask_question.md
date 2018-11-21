@@ -4,11 +4,11 @@
 
 可以在实验界面里点击实验步骤上方的 `我要提问`，提出关于当前实验的问题。
 
-TODO
+![askquestion](../images/askquestion.jpg)
 
 也可以在[讨论](https://www.shiyanlou.com/questions/)中点击右边栏的 `我要发帖` 提问。
 
-TODO
+![post](../images/post.jpg)
 
 ## 提问的建议
 
