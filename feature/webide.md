@@ -2,7 +2,7 @@
 
 ## 介绍
 
-Web IDE 界面提供的是一个可以在浏览器中编辑代码的 IDE 的界面，集成的是 [Theia IDE](https://www.theia-ide.org/)。在 Web IDE 界面中，可以编辑代码文件，打开 terminal 执行 Linux 命令，还可以在 Terminal 中运行 Web 服务获得临时域名，打开浏览器进行预览测试。
+Web IDE 界面提供的是一个可以在浏览器中编辑代码的 IDE 的界面。在 Web IDE 界面中，可以编辑代码文件，打开 terminal 执行 Linux 命令，还可以在 Terminal 中运行 Web 服务获得临时域名，打开浏览器进行预览测试。
 
 ![WebIDE](../images/webide.jpg)
 
@@ -111,6 +111,12 @@ $ mvn archetype:generate -DgroupId=com.shiyanlou -DartifactId=demo -DarchetypeAr
 
 如果在实验中如果需要运行已有项目或者继续之前没有完成的项目，我们只需要在终端（Terminal）中使用 wget 或者 git 获取代码，将工作空间切换到对应的项目根目录即可。
 
+### 下载代码
+
+在 Web IDE 中如果需要下载代码，只需要选中要下载的文件夹或者代码文件，右键选择 Download，就可以下载到本地。下载的代码会被打包成 tar 包，下载后在 Mac 和 Windows 上都可以通过常用的解压软件，例如 7zip 进行解压，在 Linux 上可以使用 tar 命令解压。
+
+![webidedownload](../images/webidedownload.jpg)
+
 ## 支持的功能
 
 Web IDE 界面支持的功能：
@@ -121,5 +127,5 @@ Web IDE 界面支持的功能：
 * [有效学习时间](../feature/study_time.md)
 * [下载代码](../feature/download_code.md)
 
-Web IDE SSH 直连和保存环境的功能正在开发中，很快会上线。
+保存环境的功能正在开发中，很快会上线。
 

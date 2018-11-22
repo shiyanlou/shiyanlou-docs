@@ -82,7 +82,3 @@ shiyanlou:~/ $
 
 * [图形界面](../feature/desktop.md)
 * [字符界面](../feature/terminal.md)
-
-Web IDE 界面的 SSH 直连功能正在开发中，很快就会上线。
-
-如果实验环境使用的是虚拟机，则无法支持 SSH 直连。
