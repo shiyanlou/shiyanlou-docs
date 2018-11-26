@@ -56,8 +56,7 @@ IT 技术是实践的科学，动手实践是最高效的学习方法。实验�
 
 在线阅读地址：
 
-* [实验楼教程库在线阅读](TODO)
-* [gitbook 在线阅读](TODO)
+* [实验楼教程库在线阅读](https://www.shiyanlou.com/library/shiyanlou-docs)
 
 ## 贡献
 
