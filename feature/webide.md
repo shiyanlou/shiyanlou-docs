@@ -12,9 +12,28 @@ Web IDE 不同于图形界面，对带宽要求较低，所以比较适用于一
 
 ## 使用
 
-这里以 Java 举例，在 WEB IDE 中，主要使用命令行和 maven 来开发项目。
+这里以 Web 前端开发和 Java 开发实验举例。
 
-### 新建项目
+### 前端开发
+
+除了 Java 之外， Web IDE 界面也非常适合进行 Web 前端相关的实验。
+
+在代码目录部分创建一个 `hello.html` 的 HTML 文件，然后在编辑区域输入以下 HTML 代码：
+
+![webidewebhtml](../images/webidewebhtml.jpg)
+
+代码保存后，如果希望预览 Web 界面的效果，可以选择代码文件，右键，选择 Open With，然后选择使用 Mini Browser 打开：
+
+![webideminibrowser](../images/webideminibrowser.jpg)
+
+
+打开后的预览效果如下，可以看到 HTML 页面已经可以展示出来了，在代码中进行编辑修改后，页面也会动态更新内容：
+
+![webidewebpreview](../images/webidewebpreview.jpg)
+
+### 新建 Java 项目
+
+在 WEB IDE 中，Java 主要使用命令行和 maven 来开发项目。
 
 首先，点击 `File->Open New Terminal` 打开终端：
 
