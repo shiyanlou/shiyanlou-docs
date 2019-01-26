@@ -16,8 +16,6 @@ Web IDE 不同于图形界面，对带宽要求较低，所以比较适用于一
 
 ### 前端开发
 
-除了 Java 之外， Web IDE 界面也非常适合进行 Web 前端相关的实验。
-
 在代码目录部分创建一个 `hello.html` 的 HTML 文件，然后在编辑区域输入以下 HTML 代码：
 
 ![webidewebhtml](../images/webidewebhtml.jpg)
@@ -32,6 +30,8 @@ Web IDE 不同于图形界面，对带宽要求较低，所以比较适用于一
 ![webidewebpreview](../images/webidewebpreview.jpg)
 
 ### 新建 Java 项目
+
+除了前端开发， Web IDE 界面也非常适合进行 Java Web 相关的实验。
 
 在 WEB IDE 中，Java 主要使用命令行和 maven 来开发项目。
 
