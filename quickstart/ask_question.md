@@ -2,9 +2,9 @@
 
 ## 如何提问
 
-可以在实验界面里点击实验步骤上方的 `我要提问`，提出关于当前实验的问题。
+可以在学习界面里点击 `讨论`，进入讨论页面后点击上方的 `发布帖子`，提出关于当前实验的问题。
 
-![askquestion](../images/askquestion.jpg)
+![askquestion](../images/askquestion.png)
 
 也可以在[讨论](https://www.shiyanlou.com/questions/)中点击右边栏的 `我要发帖` 提问。
 

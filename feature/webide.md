@@ -5,7 +5,7 @@
 
 Web IDE 界面提供的是一个可以在浏览器中编辑代码的 IDE 的界面。在 Web IDE 界面中，可以编辑代码文件，打开 terminal 执行 Linux 命令，还可以在 Terminal 中运行 Web 服务获得临时域名，打开浏览器进行预览测试。
 
-![WebIDE](../images/webide.jpg)
+![WebIDE](../images/webide.png)
 
 ###  界面优势
 
@@ -146,6 +146,6 @@ Web IDE 界面支持的功能：
 * [倒计时与延时](../feature/count_down.md)
 * [有效学习时间](../feature/study_time.md)
 * [下载代码](../feature/download_code.md)
-
-保存环境的功能正在开发中，很快会上线。
+* [SSH 直连（会员）](../feature/ssh.md)
+* [保存环境（会员）](../feature/save_lab.md)
 

@@ -32,7 +32,7 @@ IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython �
 
 目前，图形界面如下图所示，大致分为两部分：左边是实验步骤，右边是在线实验环境。学习时，你通过阅读文档内容，并自己动手在右侧的在线环境中练习。
 
-![desktop](../images/desktopui.jpg)
+![desktop](../images/desktopui.png)
 
 而在 Jupyter Notebook 界面中，学习逻辑就会发生一些变化。如今，实验步骤和实验环境被融为一体，你只需要跟随实验楼制作好的每一个实验内容，从头到尾一步一步完成练习即可。下面，我们就了解一下 Jupyter Notebook 中的实验内容的组成结构。
 
@@ -66,11 +66,7 @@ IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython �
 
 ### 保存自己的代码
 
-首先，在 Jupyter Notebook 界面中输入的字符和代码都是自动保存的。只要当前实验没有停止（点击右上角的停止按钮，或环境超时自动停止），那就无需担心刷新页面后造成自己动手练习代码出现丢失。
-
-除此之外，如果想停止实验时，可以将 Python 代码文件下载到本地以备后用。只需要点击界面右上角的下载按钮即可。
-
-![savecode](../images/savecode.png)
+首先，在 Jupyter Notebook 界面中输入的字符和代码都是自动保存的，无需担心刷新页面后造成自己动手练习代码出现丢失，只有当前关闭环境（点击右边工具栏的关闭环境按钮，或环境超时自动停止）的时候，才会被完全删除。
 
 ## 界面特点
 
@@ -108,6 +104,5 @@ Jupyter Notebook 界面支持以下功能：
 
 * [倒计时与延时](../feature/count_down.md)
 * [有效学习时间](../feature/study_time.md)
-* [下载代码](../feature/download_code.md)
 
 Jupyter Notebook 的实验步骤已经混合到实验环境中的 Notebook 文档里，因此无法支持通常意义的步骤和自动步骤验证。

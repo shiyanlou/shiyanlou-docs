@@ -4,12 +4,12 @@
 
 SSH 直连指的是使用本地的 SSH 客户端连接实验环境，把实验环境当成一台远端的 SSH 服务器来使用，连接后在 SSH 客户端中进行实验操作。SSH 直连是实验楼会员功能。
 
-![ssh](../images/ssh1.jpg)
+![ssh](../images/ssh1.png)
 
 
 ## 使用
 
-开始实验后，在实验界面中点击右边工具栏上的 `SSH 直连` 按钮后会弹出 SSH 连接信息，包括 IP 地址、端口号、用户名及密码。
+开始实验后，在学习界面中点击右边工具栏上的 `SSH 直连` 按钮后会弹出 SSH 连接信息，包括 IP 地址、端口号、用户名及密码。
 
 不同的操作系统 SSH 连接的方式不同，其中在 Linux 及 Mac OS 操作系统上，可以直接打开终端，使用 `ssh` 命令进行连接，连接的语法如下：
 
@@ -80,3 +80,4 @@ shiyanlou:~/ $
 
 * [图形界面](../feature/desktop.md)
 * [字符界面](../feature/terminal.md)
+* [WebIDE界面](../feature/webide.md)

@@ -6,7 +6,7 @@
 
 实验报告的位置挨着实验步骤，编写实验报告需要使用 Markdown 语法。
 
-![labreport](../images/labreport.jpg)
+![labreport](../images/labreport.png)
 
 ## 使用
 
@@ -14,19 +14,19 @@
 
 可以一边实验一边编写实验报告，实验报告中可以插入文字和图片，使用 Markdown 语法可以控制报告最终的显示效果，点击预览可以看到最终效果。
 
-![labreportpreview](../images/labreportpreview.jpg)
+![labreportpreview](../images/labreportpreview.png)
 
 ### 保存截图
 
 点击实验报告编辑栏的图片按钮，可以直接将实验环境的界面保存为截图，也可以直接上传本地的图片。
 
-![labreport](../images/labreportscreenshot.jpg)
+![labreport](../images/labreportscreenshot.png)
 
 ### 发布实验报告
 
 当完成实验报告后，希望公开出去，可以点击发布，发布后实验报告可以被所有人查看。
 
-![labreport](../images/labreportpublish.jpg)
+![labreport](../images/labreportpublish.png)
 
 ### 查看实验报告
 
