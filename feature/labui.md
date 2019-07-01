@@ -23,7 +23,7 @@
 
 ![terminal](../images/terminal.png)
 
-![notebook](../images/notebook.png)
+![notebook](../images/shiyanlounotebook.png)
 
 ![webide](../images/webide.png)
 

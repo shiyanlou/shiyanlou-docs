@@ -27,7 +27,7 @@ IT 技术是实践的科学，动手实践是最高效的学习方法。实验�
 
 ![desktop](images/desktopui.png)
 
-![notebook](images/notebook.png)
+![notebook](images/shiyanlounotebook.png)
 
 四种界面的功能支持：
 
