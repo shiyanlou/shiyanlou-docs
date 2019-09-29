@@ -21,7 +21,7 @@ Web IDE 不同于图形界面，对带宽要求较低，所以比较适用于一
 
 ![webidewebhtml](../images/webidewebhtml.jpg)
 
-代码保存后，如果希望预览 Web 界面的效果，可以选择代码文件，右键，选择 Open With，然后选择使用 Mini Browser 打开：
+代码保存后，如果希望预览 Web 界面的效果，可以选择代码文件，右键，选择 Open With，然后选择使用 Preview 或 Mini Browser 打开（新版的 WebIDE 页面都使用的 Preview）：
 
 ![webideminibrowser](../images/webideminibrowser.jpg)
 
