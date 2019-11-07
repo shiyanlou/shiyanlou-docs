@@ -4,7 +4,7 @@
 
 图形界面提供的是一个提供 Xfce 桌面的 Linux 操作系统，用户可以使用桌面上的各种工具进行实验。目前图形界面是实验楼上应用的课程最多的界面。
 
-![desktop](../images/desktopui.png)
+![desktop](https://doc.shiyanlou.com/shiyanlou-docs/images/desktopui.png)
 
 ## 使用
 

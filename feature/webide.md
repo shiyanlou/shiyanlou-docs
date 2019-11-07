@@ -5,7 +5,7 @@
 
 Web IDE 界面提供的是一个可以在浏览器中编辑代码的 IDE 的界面。在 Web IDE 界面中，可以编辑代码文件，打开 terminal 执行 Linux 命令，还可以在 Terminal 中运行 Web 服务获得临时域名，打开浏览器进行预览测试。
 
-![WebIDE](../images/webide.png)
+![WebIDE](https://doc.shiyanlou.com/shiyanlou-docs/images/webide.png)
 
 ###  界面优势
 
@@ -19,16 +19,16 @@ Web IDE 不同于图形界面，对带宽要求较低，所以比较适用于一
 
 在代码目录部分创建一个 `hello.html` 的 HTML 文件，然后在编辑区域输入以下 HTML 代码：
 
-![webidewebhtml](../images/webidewebhtml.jpg)
+![webidewebhtml](https://doc.shiyanlou.com/shiyanlou-docs/images/webidewebhtml.jpg)
 
 代码保存后，如果希望预览 Web 界面的效果，可以选择代码文件，右键，选择 Open With，然后选择使用 Preview 或 Mini Browser 打开（新版的 WebIDE 页面都使用的 Preview）：
 
-![webideminibrowser](../images/webideminibrowser.jpg)
+![webideminibrowser](https://doc.shiyanlou.com/shiyanlou-docs/images/webideminibrowser.jpg)
 
 
 打开后的预览效果如下，可以看到 HTML 页面已经可以展示出来了，在代码中进行编辑修改后，页面也会动态更新内容：
 
-![webidewebpreview](../images/webidewebpreview.jpg)
+![webidewebpreview](https://doc.shiyanlou.com/shiyanlou-docs/images/webidewebpreview.jpg)
 
 ### 新建 Java 项目
 
@@ -38,7 +38,7 @@ Web IDE 不同于图形界面，对带宽要求较低，所以比较适用于一
 
 首先，点击 `File->Open New Terminal` 打开终端：
 
-![OpenTerminal](../images/openterminal.png)
+![OpenTerminal](https://doc.shiyanlou.com/shiyanlou-docs/images/openterminal.png)
 
 在终端中输入命令，使用 maven 建立项目：
 
@@ -48,7 +48,7 @@ $ mvn archetype:generate -DgroupId=com.shiyanlou -DartifactId=demo -DarchetypeAr
 
 这里创建了一个名为 demo 的 maven 项目。
 
-![createdemo](../images/createdemo.png)
+![createdemo](https://doc.shiyanlou.com/shiyanlou-docs/images/createdemo.png)
 
 ### 切换工作空间
 
@@ -56,21 +56,21 @@ $ mvn archetype:generate -DgroupId=com.shiyanlou -DartifactId=demo -DarchetypeAr
 
 点击 `File-> Open Workspace` 选择对应目录即可。
 
-![openworkspace1](../images/openworkspace1.png) 
+![openworkspace1](https://doc.shiyanlou.com/shiyanlou-docs/images/openworkspace1.png) 
 
-![openworkspace2](../images/openworkspace2.png)
+![openworkspace2](https://doc.shiyanlou.com/shiyanlou-docs/images/openworkspace2.png)
 
 ### 添加 package
 
 添加包就是添加文件夹，点击 `File-> New Folder`，新建对应的文件夹即可。
 
-![newfolder](../images/newfolder.png)
+![newfolder](https://doc.shiyanlou.com/shiyanlou-docs/images/newfolder.png)
 
 ### 添加代码文件
 
 点击 `File->New File` 输入文件名，创建新的代码文件。
 
-![newfile](../images/newfile.png)
+![newfile](https://doc.shiyanlou.com/shiyanlou-docs/images/newfile.png)
 
 ### 编写代码
 
@@ -106,24 +106,24 @@ $ mvn archetype:generate -DgroupId=com.shiyanlou -DartifactId=demo -DarchetypeAr
 ```
 
 
-![pomxml](../images/pomxml.png)
+![pomxml](https://doc.shiyanlou.com/shiyanlou-docs/images/pomxml.png)
 
 
 ### 运行 Web 服务
 
 在 Java Web 开发过程中，需要运行 Web 服务进行调试，这个时候就需要 Jetty 或者 Tomcat。在上面的配置文件，内置了 Jetty maven 插件，在`demo` 目录下，使用 `mvn jetty:run` 即可启动 Web 服务（注意：只能使用 8080 端口，即默认端口，使用其它端口无法访问）。
 
-![runweb](../images/runweb.png)
+![runweb](https://doc.shiyanlou.com/shiyanlou-docs/images/runweb.png)
 
 启动成功的界面：
 
-![runweb2](../images/runweb2.png)
+![runweb2](https://doc.shiyanlou.com/shiyanlou-docs/images/runweb2.png)
 
 ### 访问服务
 
 点击上方工具中的 `Web服务` 按钮，即可访问web服务。
 
-![startweb](../images/startweb.jpg)
+![startweb](https://doc.shiyanlou.com/shiyanlou-docs/images/startweb.jpg)
 
 此时会单独打开一个浏览器并查看运行的服务内容。如果代码有更新，重新部署后刷新这个单独的浏览器页面即可查看最新内容。
 
@@ -135,7 +135,7 @@ $ mvn archetype:generate -DgroupId=com.shiyanlou -DartifactId=demo -DarchetypeAr
 
 在 Web IDE 中如果需要下载代码，只需要选中要下载的文件夹或者代码文件，右键选择 Download，就可以下载到本地。下载的代码会被打包成 tar 包，下载后在 Mac 和 Windows 上都可以通过常用的解压软件，例如 7zip 进行解压，在 Linux 上可以使用 tar 命令解压。
 
-![webidedownload](../images/webidedownload.jpg)
+![webidedownload](https://doc.shiyanlou.com/shiyanlou-docs/images/webidedownload.jpg)
 
 ## 支持的功能
 

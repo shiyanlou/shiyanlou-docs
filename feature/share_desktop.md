@@ -11,7 +11,7 @@
 + 只读模式：对方只能远程观看你的操作，主要应用在远程教学演示操作。
 + 协作模式：对方可以和你一起操作你的实验环境，主要应用在用户实验过程中遇到问题时，可通过共享桌面让对方远程协助。
 
-![shareddesktop](../images/sharedesktop.jpg)
+![shareddesktop](https://doc.shiyanlou.com/shiyanlou-docs/images/sharedesktop.jpg)
 
 ## 支持的界面
 

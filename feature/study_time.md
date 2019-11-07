@@ -12,11 +12,11 @@
 
 每增加 30 分钟有效学习时间上升 1 层楼，并且可以获得 1 个实验豆奖励，获得楼层和实验豆的时候会收到提醒的消息。
 
-![studytime1](../images/studytime1.jpg)
+![studytime1](https://doc.shiyanlou.com/shiyanlou-docs/images/studytime1.jpg)
 
 可以在个人主页查看每天的有效学习时间记录以及楼层。
 
-![studytimecheck](../images/studytimecheck.jpg)
+![studytimecheck](https://doc.shiyanlou.com/shiyanlou-docs/images/studytimecheck.jpg)
 
 ### 百楼俱乐部
 

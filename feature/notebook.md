@@ -8,7 +8,7 @@ Jupyter Notebook 是一个能运行 Python 代码的 Web 应用程序，它是�
 
 如果你对 Python 比较熟悉，应该都听说过 [IPython](https://ipython.org/)，它是一种基于 Python 的交互式解释器。相较于原生的 Python Shell，IPython 提供了更为强大的编辑和交互功能。
 
-![ipython](../images/ipython.png)
+![ipython](https://doc.shiyanlou.com/shiyanlou-docs/images/ipython.png)
 
 IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython 的交互式特性，同时以 Web 形式运行。IPython Notebook 的出现，让数据分析和机器学习的过程变得高效。
 
@@ -16,7 +16,7 @@ IPython 之后，就出现了 IPython Notebook，它完整地继承了 IPython �
 
 再之后，在谷歌、微软等互联网巨头的赞助下，IPython Notebook 发展成为更加成熟和完善的开源项目，并更名为 [Jupyter Notebook](https://jupyter.org/)。相信部分朋友对这个名字和下面的界面并不陌生。
 
-![jupyternotebook](../images/jupyternotebook.png)
+![jupyternotebook](https://doc.shiyanlou.com/shiyanlou-docs/images/jupyternotebook.png)
 
 Jupyter Notebook 已经成为现代处理数据的必备工具。从数据清理、数据可视化、数据分析，再到后面的建立机器学习或深度学习模型，都可以在 Jupyter Notebook 完成。同时，Jupyter Notebook 可以保留代码运行后的结果，方便内容的传播，以及回顾做过的工作。
 
@@ -24,13 +24,13 @@ Jupyter Notebook 已经成为现代处理数据的必备工具。从数据清理
 
 如今，实验楼基于 Jupyter Notebook 开发出了更加简洁易用的实验楼 Notebook 在线实验环境，界面如下所示。
 
-![shiyanlounotebook](../images/shiyanlounotebook.png)
+![shiyanlounotebook](https://doc.shiyanlou.com/shiyanlou-docs/images/shiyanlounotebook.png)
 
 如果你先前使用过 Jupyter Notebook，我们相信当你接触到实验楼 Notebook 环境时会很容易上手。当然，感到陌生的你也完全不用担心，下面就手把手教你实验楼 Notebook 环境的正确使用方法。
 
 目前，实验楼通用的在线环境界面如下图所示，大致分为两部分：左边是实验文档，右边是在线实验环境。学习时，你通过阅读文档内容，并自己动手在右侧的在线环境中练习。
 
-![desktop](../images/desktopui.png)
+![desktop](https://doc.shiyanlou.com/shiyanlou-docs/images/desktopui.png)
 
 而在实验楼 Notebook 中，学习逻辑就会发生一些变化。如今，实验文档和实验环境被融为一体，你只需要跟随实验楼制作好的每一个课程内容，从头到尾一步一步完成练习即可，就像你现在正在阅读的这份实验文档一样。下面，我们就了解一下课程内容的组成结构。
 
@@ -38,7 +38,7 @@ Jupyter Notebook 已经成为现代处理数据的必备工具。从数据清理
 
 内容结构中最基本的组成单位被称之为单元格，一节完整的实验课程由若干个单元格按顺序构成。如下图所示，当你使用鼠标在课程界面【单击】时，就会选中相应的单元格，被处于选中状态的单元格的左侧会出现一条蓝色的竖线。
 
-![cell](../images/cell.png)
+![cell](https://doc.shiyanlou.com/shiyanlou-docs/images/cell.png)
 
 #### 单元格的两种模式
 
@@ -48,19 +48,19 @@ Jupyter Notebook 已经成为现代处理数据的必备工具。从数据清理
 
 除此之外，更简单的方法就是观察单元格的背景色。如下图所示，我们将 Code 单元格的背景色设置成为黑色，而 Markdown 单元格的背景则为白色。
 
-![cellmode](../images/cellmode.png)
+![cellmode](https://doc.shiyanlou.com/shiyanlou-docs/images/cellmode.png)
 
 #### 单元格菜单栏
 
 上面提到了单元格右上角的菜单栏。如下图所示，菜单栏中包含了针对单元格常见的 4 种操作。
 
-![cellmenu](../images/cellmenu.png)
+![cellmenu](https://doc.shiyanlou.com/shiyanlou-docs/images/cellmenu.png)
 
 #### 运行代码
 
 你可能会有疑问，那就是自己在哪里书写练习代码并执行呢？当前，这一切都是在 Code 单元格中完成。如下图所示，当你在 Code 单元格中书写 `print('hello, world!')` 时，点击左侧的运行按钮 <font color='green'>▶</font>，相应的代码就会立即执行，并在单元格的下方显示输出内容。
 
-![runcode](../images/runcode.png)
+![runcode](https://doc.shiyanlou.com/shiyanlou-docs/images/runcode.png)
 
 实验楼 Notebook 沿用了 Jupyter Notebook 全部的快捷键。所以，当你需要执行一个单元格时，也可以通过快捷键 `Shift + Enter` 来运行。使用快捷键的好处是你的双手不需要离开键盘。
 
@@ -72,7 +72,7 @@ Jupyter Notebook 已经成为现代处理数据的必备工具。从数据清理
 
 无论是 Markdown 单元格，还是 Code 单元格，它们在课程中都是按照从上到下的顺序依次执行的。后面的单元格需要等待前面的单元格执行完成后，才能继续执行。执行完成的单元格左侧会出现 `In [序号]` 的标志，例如：
 
-![runcell](../images/runcell.png)
+![runcell](https://doc.shiyanlou.com/shiyanlou-docs/images/runcell.png)
 
 #### 单元格的执行状态
 
@@ -88,7 +88,7 @@ Jupyter Notebook 已经成为现代处理数据的必备工具。从数据清理
 2. 按下 `P` 键，调出 Notebook 命令栏。
 3. 在命令栏中输入并选中 `restart kernel` 命令。
 
-![restartkernel](../images/restartkernel.png)
+![restartkernel](https://doc.shiyanlou.com/shiyanlou-docs/images/restartkernel.png)
 
 执行 `restart kernel` 命令后，如果全部代码单元格的状态都变为 `In []`（执行后留下的数字消失），即代表内核重启成功。由于机器学习很多算法较为复杂，本身执行时间长。所以，大多数情况下都无需重启内核，否则又需要将之前的单元格全部重新执行一遍。
 

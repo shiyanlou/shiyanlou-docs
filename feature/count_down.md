@@ -4,7 +4,7 @@
 
 开始实验后，学习界面右上角有一个倒计时，默认是 1 小时起点，当时间结束后，实验环境将被删除，如果是会员保存的环境，则会被关机。
 
-![countdown](../images/countdown.png)
+![countdown](https://doc.shiyanlou.com/shiyanlou-docs/images/countdown.png)
 
 ## 使用
 

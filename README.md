@@ -25,9 +25,9 @@ IT 技术是实践的科学，动手实践是最高效的学习方法。实验�
 * [Jupyter Notebook](feature/notebook.md)
 * [Web IDE](feature/webide.md)
 
-![desktop](images/desktopui.png)
+![desktop](https://doc.shiyanlou.com/shiyanlou-docs/images/desktopui.png)
 
-![notebook](images/shiyanlounotebook.png)
+![notebook](https://doc.shiyanlou.com/shiyanlou-docs/images/shiyanlounotebook.png)
 
 四种界面的功能支持：
 

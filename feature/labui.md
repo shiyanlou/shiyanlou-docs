@@ -19,13 +19,13 @@
 * Jupyter Notebook：适用于数据分析、机器学习等实验
 * Web IDE：适用于 Java、PHP 及 Web 前端实验
 
-![desktop](../images/desktopui.png)
+![desktop](https://doc.shiyanlou.com/shiyanlou-docs/images/desktopui.png)
 
-![terminal](../images/terminal.png)
+![terminal](https://doc.shiyanlou.com/shiyanlou-docs/images/terminal.png)
 
-![notebook](../images/shiyanlounotebook.png)
+![notebook](https://doc.shiyanlou.com/shiyanlou-docs/images/shiyanlounotebook.png)
 
-![webide](../images/webide.png)
+![webide](https://doc.shiyanlou.com/shiyanlou-docs/images/webide.png)
 
 ## 功能支持
 

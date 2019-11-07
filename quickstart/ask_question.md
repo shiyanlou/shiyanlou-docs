@@ -4,11 +4,11 @@
 
 可以在学习界面里点击 `讨论`，进入讨论页面后点击上方的 `发布帖子`，提出关于当前实验的问题。
 
-![askquestion](../images/askquestion.png)
+![askquestion](https://doc.shiyanlou.com/shiyanlou-docs/images/askquestion.png)
 
 也可以在[讨论](https://www.shiyanlou.com/questions/)中点击右边栏的 `我要发帖` 提问。
 
-![post](../images/post.jpg)
+![post](https://doc.shiyanlou.com/shiyanlou-docs/images/post.jpg)
 
 ## 提问的建议
 

@@ -4,7 +4,7 @@
 
 SSH 直连指的是使用本地的 SSH 客户端连接实验环境，把实验环境当成一台远端的 SSH 服务器来使用，连接后在 SSH 客户端中进行实验操作。SSH 直连是实验楼会员功能。
 
-![ssh](../images/ssh1.png)
+![ssh](https://doc.shiyanlou.com/shiyanlou-docs/images/ssh1.png)
 
 
 ## 使用

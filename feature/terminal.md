@@ -4,7 +4,7 @@
 
 字符界面提供的是一个 Linux 操作系统的 Shell 终端，用户可以在 Shell 中输入各种 Linux 命令进行实验。大部分字符界面都可以通过切换界面的方式切换到图形界面。
 
-![terminal](../images/terminal.png)
+![terminal](https://doc.shiyanlou.com/shiyanlou-docs/images/terminal.png)
 
 ## 使用
 

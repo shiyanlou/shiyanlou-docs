@@ -4,7 +4,7 @@
 
 挑战是可以自动评测实验结果的测验（可理解为考试或课后练习），类似 OJ 评测系统。实验文档会给出一个任务和提示，在实验环境中完成任务后点击 `提交检测` 按钮，系统会自动对你的提交结果进行测试，并返回通过（PASS）或失败（FAIL）的结果。
 
-![submitchallenge](../images/submitchallenge.png)
+![submitchallenge](https://doc.shiyanlou.com/shiyanlou-docs/images/submitchallenge.png)
 
 挑战侧重于评估解决问题的能力、实际的动手能力以及项目工程的开发能力等。
 
@@ -12,7 +12,7 @@
 
 在学习界面点击页面上方的章节列表可以进入到挑战章节，点击右侧实验环境部分的环境窗口就可以进入到挑战的环境。
 
-![startchallenge](../images/startchallenge.png)
+![startchallenge](https://doc.shiyanlou.com/shiyanlou-docs/images/startchallenge.png)
 
 ## 挑战和实验的区别
 

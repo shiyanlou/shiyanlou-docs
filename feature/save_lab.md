@@ -12,7 +12,7 @@
 
 另外当点击 `停止实验` 的时候，也会询问是否保存当前的实验环境。
 
-![stopsavelab](../images/stoplabsavelab.png)
+![stopsavelab](https://doc.shiyanlou.com/shiyanlou-docs/images/stoplabsavelab.png)
 
 如果希望保存当前环境，点击保存按钮。如果之前保存过环境，则会替换旧环境。
 
@@ -20,7 +20,7 @@
 
 会员可以保存两个实验环境，如果有保存的环境，那么可以选择使用保存的环境还是默认的环境，需要注意每个课程的环境可能不同，保存的环境并不能够适配所有的课程。
 
-![savelab](../images/savelab.png)
+![savelab](https://doc.shiyanlou.com/shiyanlou-docs/images/savelab.png)
 
 ## 支持的界面
 
