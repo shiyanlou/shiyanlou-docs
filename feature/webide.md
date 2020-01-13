@@ -121,7 +121,7 @@ $ mvn archetype:generate -DgroupId=com.shiyanlou -DartifactId=demo -DarchetypeAr
 
 ### 访问服务
 
-点击上方工具中的 `Web服务` 按钮，即可访问web服务。
+点击上方工具中的 `Web服务` 按钮（该按钮已移到环境右侧），即可访问 Web 服务。
 
 ![startweb](https://doc.shiyanlou.com/shiyanlou-docs/images/startweb.jpg)
 
