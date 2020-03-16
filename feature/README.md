@@ -22,4 +22,6 @@
 * [下载代码](../feature/download_code.md)
 * [SSH 直连（会员）](../feature/ssh.md)
 * [保存环境（会员）](../feature/save_lab.md)
+* [上传文件（会员）](../feature/upload_file.md)
+
 

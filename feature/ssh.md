@@ -4,35 +4,43 @@
 
 SSH 直连指的是使用本地的 SSH 客户端连接实验环境，把实验环境当成一台远端的 SSH 服务器来使用，连接后在 SSH 客户端中进行实验操作。SSH 直连是实验楼会员功能。
 
-![ssh](https://doc.shiyanlou.com/shiyanlou-docs/images/ssh1.png)
-
+![ssh](https://doc.shiyanlou.com/shiyanlou-docs/images/ssh2.png)
 
 ## 使用
 
-开始实验后，在学习界面中点击右边工具栏上的 `SSH 直连` 按钮后会弹出 SSH 连接信息，包括 IP 地址、端口号、用户名及密码。
+开始实验后，在学习界面中点击右边工具栏上的 `SSH 直连` 按钮后会弹出 SSH 连接信息，包括服务器地址、端口号、用户名及密码。
+
+注意只有你启动了实验环境以后才可以使用 SSH 直连，如果环境没有启动，SSH 连接会失败。
 
 不同的操作系统 SSH 连接的方式不同，其中在 Linux 及 Mac OS 操作系统上，可以直接打开终端，使用 `ssh` 命令进行连接，连接的语法如下：
 
 ```
-$ ssh -p 端口 shiyanlou@IP地址
+$ ssh 实验楼账号@ssh.shiyanlou.com
 ```
 
-例如打开 SSH 直连窗口后得到如下信息：
+其中实验楼账号可以使用你在实验楼注册账号中绑定的邮箱地址，或者手机号码（目前只支持中国大陆）。
 
-* IP：10.11.10.1
-* 端口：43212
-* 用户名：shiyanlou
-* 密码：92918199
-
-那么需要在终端中输入以下命令，输入后按照提示输入 yes，然后再输入密码，注意密码输入是看不到的。
+例如你的账号绑定了邮箱地址 `test@test.com`，绑定了手机号码 `+8613800100186`，那么可以使用以下命令进行连接：
 
 ```
-$ ssh -p 43212 shiyanlou@10.11.10.1
-The authenticity of host '[10.11.10.1]:43212 ([10.11.10.1]:43212)' can't be established.
+$ ssh test@test.com@ssh.shiyanlou.com
+
+或者
+
+$ ssh 13800100186@ssh.shiyanlou.com
+```
+
+SSH 连接的密码为你的实验楼账号密码，如果是使用微博、微信、Github、QQ等第三方账号登录的，请先去[个人设置](https://www.shiyanlou.com/user/profile/)设置密码及绑定手机或者邮箱地址。
+
+SSH 连接过程如下步骤所示：在终端中输入以下命令，输入后按照提示输入 yes，然后再输入密码，注意密码输入是看不到的。
+
+```
+$ ssh 13800100186@ssh.shiyanlou.com
+The authenticity of host '[ssh.shiyanlou.com]:22 ([ssh.shiyanlou.com]:22)' can't be established.
 ECDSA key fingerprint is SHA256:+f8C5pSxZq+IUa31ZaEpWkaYNV3Lvk/HUteFFBvjs8w.
 Are you sure you want to continue connecting (yes/no)?yes
-Warning: Permanently added '[10.11.10.1]:43212' (ECDSA) to the list of known hosts.
-shiyanlou@10.11.10.1's password:92918199
+Warning: Permanently added '[ssh.shiyanlou.com]:22)' (ECDSA) to the list of known hosts.
+13800100186@ssh.shiyanlou.com's password:
 Welcome to Ubuntu 16.04.4 LTS (GNU/Linux 3.13.0-125-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
@@ -56,8 +64,8 @@ shiyanlou:~/ $
 
 下载后放到桌面，直接双击打开，打开后输入下列信息：
 
-* Host Name：输入 SSH 直连窗口中显示的 IP 地址
-* Port：输入 SSH 直连窗口中显示的端口号
+* Host Name：ssh.shiyanlou.com
+* Port：22（默认端口号）
 * Connection Type：选择 SSH
 
 然后保存为 Session，点击这个 Session，再点击 Open，会开始 SSH 连接。会询问用户名及密码，需要注意的是密码输入是不可见的。
